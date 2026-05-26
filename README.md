@@ -96,9 +96,9 @@ algo-platform/
 │   ├── app/
 │   │   ├── core/             
 │   │   ├── db/               ← SQLAlchemy session
-│   │   ├── models/  (11张表) ← user/project/dataset/annotation/training/model/deploy/audit
-│   │   ├── schemas/  (8组)   ← Pydantic
-│   │   ├── api/  (9个路由)   ← auth/projects/datasets/annotation/training/models_api/deploy/dashboard/audit
+│   │   ├── models/           ← user/project/dataset/annotation/training/model/deploy/audit
+│   │   ├── schemas/          ← Pydantic
+│   │   ├── api/              ← auth/projects/datasets/annotation/training/models_api/deploy/dashboard/audit
 │   │   └── main.py
 │   ├── scripts/init_db.py    
 │   ├── data/app.db         
@@ -109,7 +109,7 @@ algo-platform/
     │   ├── stores/          ← Pinia user store
     │   ├── router/
     │   ├── layouts/MainLayout.vue
-    │   ├── views/  (9个页面)
+    │   ├── views/  
     │   ├── utils/dict.ts    
     │   └── main.ts
     ├── vite.config.ts       
