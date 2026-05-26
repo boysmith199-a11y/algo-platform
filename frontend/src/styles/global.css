@@ -1,0 +1,60 @@
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+  background: #f5f7fa;
+}
+
+* { box-sizing: border-box; }
+
+.page-container {
+  padding: 16px;
+}
+
+.page-header {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2329;
+}
+
+.card-wrap {
+  background: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.toolbar {
+  margin-bottom: 12px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.toolbar .right { margin-left: auto; }
+
+.stat-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 18px 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.stat-card .label { color: #8a8f99; font-size: 13px; }
+.stat-card .value { font-size: 28px; font-weight: 600; color: #1f2329; margin-top: 6px; }
+
+.algo-tag-classification { color: #fff; background: #409eff; }
+.algo-tag-detection { color: #fff; background: #67c23a; }
+.algo-tag-segmentation { color: #fff; background: #e6a23c; }
+.algo-tag-keypoint { color: #fff; background: #f56c6c; }
+.algo-tag-traditional { color: #fff; background: #909399; }
+.algo-tag-other { color: #fff; background: #b1b3b8; }
